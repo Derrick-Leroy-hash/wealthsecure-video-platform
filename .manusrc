@@ -1,0 +1,11 @@
+{
+  "name": "wealthsecure-video-fixed",
+  "title": "WealthSecure Video Platform",
+  "description": "Professional video platform with webinar forms, CTAs, testimonials, and analytics",
+  "features": ["db", "server", "user"],
+  "version": "1.0.0",
+  "framework": "react-vite",
+  "database": "postgresql",
+  "storage": "s3"
+}
+
