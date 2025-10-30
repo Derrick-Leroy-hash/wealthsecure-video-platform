@@ -58,3 +58,14 @@
 - [ ] Configure production database
 - [ ] Set up S3 storage for production
 
+
+
+## Rebranding - WealthSecure Insights "Turn Credit Into Capital"
+- [ ] Update homepage title and tagline
+- [ ] Change color scheme to wealth/financial theme (navy blue, gold accents)
+- [ ] Update dashboard messaging from "Marketing & Testimonial" to wealth-building focus
+- [ ] Rebrand button labels and CTAs with wealth language
+- [ ] Add wealth-building metrics to dashboard
+- [ ] Update overall design to feel premium/financial
+- [ ] Test rebranded platform
+

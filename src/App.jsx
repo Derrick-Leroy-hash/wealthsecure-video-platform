@@ -161,23 +161,23 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       {/* Header */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-900 to-blue-700 rounded-lg flex items-center justify-center">
                 <Video className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">WealthSecure Video Platform</h1>
-                <p className="text-sm text-gray-500">Marketing & Testimonial Management</p>
+                <h1 className="text-2xl font-bold text-gray-900">WealthSecure Insights</h1>
+                <p className="text-sm text-amber-600 font-semibold">Turn Credit Into Capital</p>
               </div>
             </div>
             <div className="flex gap-4">
               <div className="text-right">
-                <div className="text-2xl font-bold text-purple-600">{stats.totalVideos || 0}</div>
+                <div className="text-2xl font-bold text-blue-900">{stats.totalVideos || 0}</div>
                 <div className="text-xs text-gray-500">Videos</div>
               </div>
               <div className="text-right">
@@ -221,7 +221,7 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold">{stats.totalVideos || 0}</div>
-                  <p className="text-xs text-muted-foreground">Marketing content library</p>
+                  <p className="text-xs text-muted-foreground">Wealth-building education</p>
                 </CardContent>
               </Card>
 
@@ -232,7 +232,7 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold">{stats.totalViews || 0}</div>
-                  <p className="text-xs text-muted-foreground">Client engagement</p>
+                  <p className="text-xs text-muted-foreground">Future wealth builders</p>
                 </CardContent>
               </Card>
 
@@ -243,7 +243,7 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold">{stats.totalShares || 0}</div>
-                  <p className="text-xs text-muted-foreground">Links sent to clients</p>
+                  <p className="text-xs text-muted-foreground">Opportunities shared</p>
                 </CardContent>
               </Card>
 
@@ -254,7 +254,7 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold">{stats.totalTestimonials || 0}</div>
-                  <p className="text-xs text-muted-foreground">Client success stories</p>
+                  <p className="text-xs text-muted-foreground">Wealth transformation stories</p>
                 </CardContent>
               </Card>
             </div>
@@ -262,7 +262,7 @@ function App() {
             <Card>
               <CardHeader>
                 <CardTitle>Recent Videos</CardTitle>
-                <CardDescription>Your latest marketing content</CardDescription>
+                <CardDescription>Your latest wealth-building content</CardDescription>
               </CardHeader>
               <CardContent>
                 {videos.length === 0 ? (
